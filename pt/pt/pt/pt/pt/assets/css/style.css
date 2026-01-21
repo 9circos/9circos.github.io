@@ -1,0 +1,56 @@
+/* RESET BÁSICO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* VARIÁVEIS */
+:root {
+  --bg-color: #f7f6f3;
+  --text-color: #1f1f1f;
+  --accent-color: #8c1d18; /* vermelho profundo */
+  --secondary-color: #3a3a3a;
+  --font-title: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+/* BODY */
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* LINKS */
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* HEADER */
+header {
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  font-weight: 500;
+}
+
+/* HERO */
+.hero {
+  min-height: 80
